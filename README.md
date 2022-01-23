@@ -10,7 +10,7 @@ Step 3: Select 4 locations on the face to estimate skin pixel value
 
 Step 4: Convert face to HSV space, estimate skin color range and detect skin region mask (The hue value is within a small range which is easier for skin detection compared to working in BGR color space)
 
-Step 5: Apply Gaussian filter and bilateral on the face crop (in BGR space) to smooth face
+Step 5: Apply Gaussian filter and bilateral filter on the face crop (in BGR space) to smooth face
 
 Step 6: Apply non-skin region pixel values back to the face
 
